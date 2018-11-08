@@ -78,13 +78,13 @@ This idea is played out in a theory called the Fat Protocol thesis which explain
 
 _source: [Joel Monegro](http://www.usv.com/blog/fat-protocols)_
 
-## Tokens. Not exactly equity, not exactly a coin-op access token. 
+## 6. Tokens. Not exactly equity, not exactly a coin-op access token. 
 
 The thing that is new and interesting about tokens is that they are somewhere in-between using a network and investing in the network. Hear Fred Wilson describe it, listen to 30:27 - 32:34:
 
 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/504193485&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
 
-## In Fat Protocol thesis, the tokens of base networks and protocols accrue value. 
+## 7. In Fat Protocol thesis, the tokens of base networks and protocols accrue value. 
 
 There's a question of how much a token should be valued at in any network. Chris Burniske has a guideline framework:
 
@@ -98,4 +98,52 @@ There's a question of how much a token should be valued at in any network. Chris
 
 _source: [Chris Burniske](https://medium.com/@cburniske/cryptoasset-valuations-ac83479ffca7)_
 
-## The best argument against Fat Protocol is Aggregation Theory.
+## 8. The best argument against Fat Protocol is Aggregation Theory.
+
+Aggregation theory argues that an internet application with a lot of users can continue to aggregate functionality, minimizing competition.
+
+![Aggregation Theory](https://stratechery.com/wp-content/uploads/2017/09/Screen-Shot-2017-09-20-at-10.11.14-AM.png)
+
+_source: [Stratechery](https://stratechery.com/aggregation-theory/)_
+
+The idea in Fat Protocol thesis is that the value accrues in the shared data layer of the network, and that users can freely move between apps because they all surface the same underlying data. (Think of apps like Twitter clients. Users can move between them easily because they all curate the same tweets).
+
+Aggregation Theory would argue that no - once an end user app had enough eyeballs, it would fork the network or start adding proprietary data to retain its users. This is like how Netflix started by being an interface showing open TV data, and once it had enough eyeballs, it started creating original content, locking in users to Netflix.
+
+This is well explained by Kyle Samani at Multicoin Capital:
+
+> I’ll propose a thought experiment in which a dapp steals value from the protocol that its built on.
+
+> Augur is comprised of two parts: the protocol (the smart contracts on the Ethereum blockchain) and the end-user application. Anyone can hook up any user experience (UX) to the Augur protocol. 
+
+> AugurCo controls the UX. Therefore, AugurCo can choose which markets to show in its UI. Naturally, AugurCo will create markets itself, and not show markets created by third parties. 
+
+> So long as AugurCo has sufficient scale and ability to resist censorship, the only rational thing to do is to fork the Augur protocol.
+
+> If an AugurCo is going to fork Augur, why even bother with decentralization at all? Why leave 25% or 50% of revenues for a decentralized network of reporters? Why doesn’t AugurCo just recentralize the whole thing and collect 100% of the fees for itself? I suspect some AugurCos will try this at some point.
+
+_source: [Multicoin Capital](https://multicoin.capital/2018/08/08/aggregation-theory-thin-protocols-and-recentralization-augur-edition/)_
+
+## 9. What else should hashrate scarcity tell us about cryptonetworks?
+
+The other thing we can take away from hashrate being the scarce resource in cryptonetworks is that whichever network has the most efficient means of producing the scarce resource (hashrate) would win. This is one reaosn why there is a huge amount of focus on developing more efficient consensus protocols.
+
+## 10. How do these networks grow and develop?
+
+The last thing to talk about is how do these cryptonetworks evolve over time? Here is an interesting view of how products in the crypto sphere will develop. Watch from the beginning to 7:35 then skip to 21:11 and watch until 22:48. (This is a good one to watch on 2x speed).
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5ca70mCCf2M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+The main takeaway here is that development will happen in iterative apps, then infrastructure, then apps again, then infratsructure again cycles.
+
+> Platforms evolve from an iterative cycle of apps=>infrastructure=>apps=>infrastructure and are rarely built in an outside vacuum.
+
+> First, apps inspire infrastructure. Then that infrastructure enables new apps.
+
+> What we see in the sequence of events of major platform shifts is that first there is a breakout app, and then that breakout app inspires a phase where we build infrastructure that makes it easier to build similar apps, and infrastructure that allows the broad consumer adoption of those apps. Kind of like this:
+
+![apps=>tools](https://usv.nyc3.digitaloceanspaces.com/apps-infra-cycle.png)
+
+> Apps and infrastructure evolve in responsive cycles, not distinct, separate phases.
+
+_source: [USV](https://www.usv.com/blog/the-myth-of-the-infrastructure-phase)_
