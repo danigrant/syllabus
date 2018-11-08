@@ -1,4 +1,4 @@
-# syllabus
+# Syllabus 2.0
 
 Becoming a fast expert in a new topic is still a big challenge. There are a lot of open resources available on the web, but sorting through them and figuring out what to consume and in what order is an unsolved problem. I'm very excited for someone to solve this by creating a sort of Syllabus 2.0 that curates content on the web in a crowdsourced way and can help people get to a proficient level of understanding on any topic in under a few hours.
 
