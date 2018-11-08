@@ -3,7 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>Syllabus: Cryptonetworks</title>
-    <link rel="stylesheet" href="/syllabus/styles.css">
+    <link rel="stylesheet" href="/syllabus/src/styles.css">
+    <link rel="stylesheet" type="text/css" href="/syllabus/src/inlineDisqussions.css" />
+
   </head>
   <body>
     <h1>How to think about Cryptonetworks</h1>
@@ -115,5 +117,22 @@
     </blockquote>
     <p class="citation"> source: <a href="https://www.usv.com/blog/the-myth-of-the-infrastructure-phase">USV</a></p>
 
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script id="dsq-count-scr" src="//teamdani.disqus.com/count.js" async></script>
+    <script src="/syllabus/src/inlineDisqussions.js"></script>
+    <script>
+      disqus_shortname = 'teamdani';
+      jQuery(document).ready(function() {
+        jQuery("h2").inlineDisqussions({
+          identifier: 'disqussion',
+          displayCount: true,
+          highlighted: false,
+          position: 'right',
+          background: 'white',
+          maxWidth: 9999
+        });
+      });
+    </script>
   </body>
 </html>

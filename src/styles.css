@@ -1,8 +1,9 @@
 body {
   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
   padding: 1em;
-  width: 70%;
-  margin: 0 auto;
+  width: 60%;
+  /* margin: 0 auto; */
+  margin-left: 100px;
 }
 
 h1 {
@@ -64,4 +65,19 @@ iframe {
   background-color: #e2e2e2;
   border-radius: 0.25em;
   font-family: monospace;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  #disqussions_wrapper {
+    display: none;
+  }
+
+  .disqussion {
+    display: none;
+  }
 }
