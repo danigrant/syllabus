@@ -1,7 +1,7 @@
 body {
   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
   padding: 1em;
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -12,6 +12,7 @@ h1 {
   font-weight: 600;
   line-height: 1.25;
   margin-bottom: 16px;
+  margin-top: 1em;
 }
 
 h2 {
@@ -35,7 +36,8 @@ blockquote {
   line-height: 1.5;
   margin-left: 0;
   margin-right: 0;
-  background-color: aliceblue;
+  background-color: #e8e8e8;
+  border-radius: 0.05em;
   padding: 1em;
 }
 
@@ -55,4 +57,11 @@ iframe {
 .citation {
   font-size: 10px;
   font-style: italic;
+}
+
+.timeframe {
+  padding: 0.4em;
+  background-color: #e2e2e2;
+  border-radius: 0.25em;
+  font-family: monospace;
 }
