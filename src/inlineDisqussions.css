@@ -19,7 +19,7 @@
   color: white;
   text-decoration: none;
   cursor: pointer;
-  background: #bbbbbb;
+  background: #2e9fff;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   -ms-border-radius: 2px;
@@ -38,7 +38,7 @@
 }
 .disqussion a:after {
   border-left: 7px solid transparent;
-  border-top: 7px solid #bbbbbb;
+  border-top: 7px solid #2e9fff;
   left: 19px;
   top: 22px;
   height: 0;
@@ -53,10 +53,10 @@
 }
 .disqussion:hover a, .disqussion.hovered a {
   opacity: 1;
-  background: #999999;
+  background: #5289b7;
 }
 .disqussion:hover a:after, .disqussion.hovered a:after {
-  border-top-color: #999999;
+  border-top-color: #5289b7;
 }
 
 #disqussions_wrapper {
