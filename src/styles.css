@@ -37,7 +37,7 @@ blockquote {
   line-height: 1.5;
   margin-left: 0;
   margin-right: 0;
-  background-color: #e8e8e8;
+  /* background-color: #e8e8e8; */
   border-radius: 0.05em;
   padding: 1em;
 }
@@ -53,6 +53,12 @@ iframe {
   padding-bottom: 1em;
   margin: 0 auto;
   display: block;
+}
+
+.article {
+  background-color: #f4f9fb;
+  padding: 2em;
+  border: 1px solid #c1d1d6;
 }
 
 .citation {
