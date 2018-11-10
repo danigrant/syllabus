@@ -73,6 +73,21 @@ iframe {
   font-family: monospace;
 }
 
+.congratulations-message {
+  padding: 2em;
+  background-color: #5dffcb;
+  border-radius: 4px;
+  margin-top: 24px;
+}
+
+.congratulations-message p {
+  margin-bottom: 0;
+}
+
+.congratulations-message a {
+  color: inherit;
+}
+
 @media only screen and (max-width: 600px) {
   body {
     width: 95%;
